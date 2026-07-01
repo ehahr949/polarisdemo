@@ -84,7 +84,7 @@ export function Train({ data, setData }: { data: AppData; setData: SetData }) {
               label={n}
               on={rpe === n}
               onPress={() => setRpe(n)}
-              style={{ flex: 1, minWidth: 30, paddingHorizontal: 0, paddingVertical: 9 }}
+              style={{ flexGrow: 1, flexBasis: 26, minWidth: 26, paddingHorizontal: 0, paddingVertical: 9 }}
               accessibilityLabel={`RPE ${n}`}
             />
           ))}
